@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/satyakumarch/Nodejs/issues"
   },
-  "homepage": "https://github.com/satyakumarch/Nodejs#readme"
+  "homepage": "https://github.com/satyakumarch/Nodejs#readme",
+  "dependencies": {
+    "color": "^4.2.3"
+  }
 }
