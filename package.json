@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/satyakumarch/Nodejs#readme",
   "dependencies": {
-    "color": "^4.2.3"
+    "color": "^4.2.3",
+    "express": "^4.21.1"
   }
 }
