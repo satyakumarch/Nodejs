@@ -27,11 +27,22 @@
 // getData();
 
 
+// const dbConnect = require('./mongodb');
+
+// const getData = async () => {
+//     let db = await dbConnect();
+//     let collection = db.collection('product');
+//     let data = await collection.find({}).toArray();
+//     console.log(data);
+// };
+
+// getData();
+
+
 const dbConnect = require('./mongodb');
 
 const getData = async () => {
-    let db = await dbConnect();
-    let collection = db.collection('admission');
+    let collection = await dbConnect();
     let data = await collection.find({}).toArray();
     console.log(data);
 };

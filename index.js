@@ -49,9 +49,26 @@
 
 //21 lecture 
 //make a html page
-const express=require('express');
-const path=require('path');
-const app=express();
-const dirPath=path.join(__dirname,'public');
-app.use(express.static(dirPath));
-app.listen(3000);
+// const express=require('express');
+// const path=require('path');
+// const app=express();
+// const dirPath=path.join(__dirname,'public');
+// app.use(express.static(dirPath));
+// app.listen(3000);
+
+
+const dbConnect = require('./mongodb');
+
+dbConnect().then((collection) => {
+    collection.find({ name: "satya Kumar Chaudhary" }).toArray().then((data) => {
+        console.log(data);
+    });
+});
+
+const main = async () => {
+    let collection = await dbConnect();
+    let data = await collection.find({ name: 'satya Kumar Chaudhary' }).toArray();
+    console.log(data);
+};
+
+main();
