@@ -12,6 +12,7 @@ const Nav = () => {
                 <li><Link to ="./update"> Update Product</Link></li>
                 <li><Link to ="./logout"> Logout Product</Link></li>
                 <li><Link to ="./profile">Profile</Link></li>
+                <li><Link to ="./Signup">Signup</Link></li>
 
 
             </ul>
