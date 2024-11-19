@@ -1,9 +1,9 @@
 
 
-const express=require('express');
-const mongoose=require('mongoose');
+const express=require("express");
+// const mongoose=require('mongoose');
 const User=require('./DB/User');
-require('./DB/Config');
+require('./DB/config');
 const app=express();
 app.use(express.json());
 app.post('/register', async(req,res)=>{
