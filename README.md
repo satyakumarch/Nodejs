@@ -66,9 +66,11 @@ Create a .env file in the root directory of the project and add your MongoDB con
 
 
 MONGODB_URI=mongodb://localhost:27017/ecommerce 🌐
+
 PORT=3000 🔌
 
 ▶️ Run the Application
+
 Start the server using the following command:
 
 npm start 🚀
@@ -77,11 +79,16 @@ Alternatively, you can use:
 
 
 node app.js 🖥️
+
 🌐 Access the Application
+
 Open your web browser and go to:
 
-Copy
+
 http://localhost:3000 🌍
+
 📌 Additional Notes
+
 Ensure MongoDB is running before starting the application. 🏃‍♂️
+
 Check the repository's README file for any specific instructions or configurations related to the e-commerce application. 📖
