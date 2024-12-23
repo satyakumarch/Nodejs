@@ -12,6 +12,8 @@ app.post('/register', async(req,res)=>{
     console.log(req.body);
     
     res.send(result);
+    //i want to start the code again
+    
 
 });
 app.listen(5000);

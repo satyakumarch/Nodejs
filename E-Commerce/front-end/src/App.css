@@ -2,11 +2,12 @@
   display: flex;
   justify-content:space-between;
   align-items: center;
-  padding: 2rem;
+  padding:3rem;
   background-color: #e4b5b5;
   font-size: 1.5rem;
   row-gap: 1rem;
 list-style-type: none;
+
 }
 .nav-links a{
   text-decoration: none;
