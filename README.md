@@ -92,3 +92,5 @@ http://localhost:3000 🌍
 Ensure MongoDB is running before starting the application. 🏃‍♂️
 
 Check the repository's README file for any specific instructions or configurations related to the e-commerce application. 📖
+
+![Screenshot 2025-01-03 211351](https://github.com/user-attachments/assets/3b45960f-978d-4767-8937-5f0886d4ee8c)
