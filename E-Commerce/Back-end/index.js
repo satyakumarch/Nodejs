@@ -3,7 +3,7 @@
 const express=require("express");
 // const mongoose=require('mongoose');
 const User=require('./DB/User');
-require('./DB/config');
+require('./DB/Config');
 const app=express();
 app.use(express.json());
 app.post('/register', async(req,res)=>{
@@ -20,3 +20,4 @@ app.listen(5000);
 
 
 
+ 
